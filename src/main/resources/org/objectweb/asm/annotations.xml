@@ -1763,6 +1763,43 @@
     <item name='org.objectweb.asm.Type org.objectweb.asm.Type[] getArgumentTypes(java.lang.reflect.Method) 0'>
         <annotation name='org.jetbrains.annotations.NotNull'/>
     </item>
+    <item name='org.objectweb.asm.TypePath int getLength()'>
+        <annotation name='org.jetbrains.annotations.Range'>
+            <val name="from" val="0"/>
+            <val name="to" val="127"/>
+        </annotation>
+    </item>
+    <item name='org.objectweb.asm.TypePath int getStep(int)'>
+        <annotation name='net.earthcomputer.externalAsmAnnotations.TypePathStep'/>
+    </item>
+    <item name='org.objectweb.asm.TypePath int getStep(int) 0'>
+        <annotation name='org.jetbrains.annotations.Range'>
+            <val name="from" val="0"/>
+            <val name="to" val="126"/>
+        </annotation>
+    </item>
+    <item name='org.objectweb.asm.TypePath int getStepArgument(int)'>
+        <annotation name='org.jetbrains.annotations.Range'>
+            <val name="from" val="0"/>
+            <val name="to" val="127"/>
+        </annotation>
+    </item>
+    <item name='org.objectweb.asm.TypePath int getStepArgument(int) 0'>
+        <annotation name='org.jetbrains.annotations.Range'>
+            <val name="from" val="0"/>
+            <val name="to" val="126"/>
+        </annotation>
+    </item>
+    <item name='org.objectweb.asm.TypePath org.objectweb.asm.TypePath fromString(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.Nullable'/>
+        <annotation name='org.jetbrains.annotations.Contract'>
+            <val name="value" val="&quot;null -&gt; null&quot;"/>
+            <val name="pure" val="true"/>
+        </annotation>
+    </item>
+    <item name='org.objectweb.asm.TypePath org.objectweb.asm.TypePath fromString(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.Nullable'/>
+    </item>
     <item name='org.objectweb.asm.TypeReference int getExceptionIndex()'>
         <annotation name='org.jetbrains.annotations.Range'>
             <val name="from" val="0"/>
