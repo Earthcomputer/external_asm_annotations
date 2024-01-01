@@ -6,5 +6,5 @@ import org.intellij.lang.annotations.RegExp;
 @Pattern(InternalName.PATTERN)
 public @interface InternalName {
     @RegExp
-    String PATTERN = UnqualifiedName.PATTERN + "(/" + UnqualifiedName.PATTERN + ")*";
+    String PATTERN = UnqualifiedName.PATTERN + "(?:/" + UnqualifiedName.PATTERN + ")*";
 }

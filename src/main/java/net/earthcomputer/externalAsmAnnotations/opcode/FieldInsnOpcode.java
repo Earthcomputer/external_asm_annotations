@@ -1,4 +1,4 @@
-package net.earthcomputer.externalAsmAnnotations.insn;
+package net.earthcomputer.externalAsmAnnotations.opcode;
 
 import org.intellij.lang.annotations.MagicConstant;
 import org.objectweb.asm.Opcodes;

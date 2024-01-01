@@ -1184,7 +1184,7 @@
         <annotation name='org.jetbrains.annotations.NotNull'/>
     </item>
     <item name='org.objectweb.asm.MethodVisitor void visitFieldInsn(int, java.lang.String, java.lang.String, java.lang.String) 0'>
-        <annotation name='net.earthcomputer.externalAsmAnnotations.insn.FieldInsnOpcode'/>
+        <annotation name='net.earthcomputer.externalAsmAnnotations.opcode.FieldInsnOpcode'/>
     </item>
     <item name='org.objectweb.asm.MethodVisitor void visitFieldInsn(int, java.lang.String, java.lang.String, java.lang.String) 1'>
         <annotation name='org.jetbrains.annotations.NotNull'/>
@@ -1232,10 +1232,10 @@
         </annotation>
     </item>
     <item name='org.objectweb.asm.MethodVisitor void visitInsn(int) 0'>
-        <annotation name='net.earthcomputer.externalAsmAnnotations.insn.InsnOpcode'/>
+        <annotation name='net.earthcomputer.externalAsmAnnotations.opcode.InsnOpcode'/>
     </item>
     <item name='org.objectweb.asm.MethodVisitor void visitIntInsn(int, int) 0'>
-        <annotation name='net.earthcomputer.externalAsmAnnotations.insn.IntInsnOpcode'/>
+        <annotation name='net.earthcomputer.externalAsmAnnotations.opcode.IntInsnOpcode'/>
     </item>
     <item name='org.objectweb.asm.MethodVisitor void visitIntInsn(int, int) 1'>
         <annotation name='org.jetbrains.annotations.Range'>
@@ -1258,7 +1258,7 @@
         <annotation name='org.jetbrains.annotations.NotNull'/>
     </item>
     <item name='org.objectweb.asm.MethodVisitor void visitJumpInsn(int, org.objectweb.asm.Label) 0'>
-        <annotation name='net.earthcomputer.externalAsmAnnotations.insn.JumpInsnOpcode'/>
+        <annotation name='net.earthcomputer.externalAsmAnnotations.opcode.JumpInsnOpcode'/>
     </item>
     <item name='org.objectweb.asm.MethodVisitor void visitJumpInsn(int, org.objectweb.asm.Label) 1'>
         <annotation name='org.jetbrains.annotations.NotNull'/>
@@ -1316,7 +1316,7 @@
         </annotation>
     </item>
     <item name='org.objectweb.asm.MethodVisitor void visitMethodInsn(int, java.lang.String, java.lang.String, java.lang.String, boolean) 0'>
-        <annotation name='net.earthcomputer.externalAsmAnnotations.insn.MethodInsnOpcode'/>
+        <annotation name='net.earthcomputer.externalAsmAnnotations.opcode.MethodInsnOpcode'/>
     </item>
     <item name='org.objectweb.asm.MethodVisitor void visitMethodInsn(int, java.lang.String, java.lang.String, java.lang.String, boolean) 1'>
         <annotation name='org.jetbrains.annotations.NotNull'/>
@@ -1366,13 +1366,13 @@
         <annotation name='net.earthcomputer.externalAsmAnnotations.pattern.InternalName'/>
     </item>
     <item name='org.objectweb.asm.MethodVisitor void visitTypeInsn(int, java.lang.String) 0'>
-        <annotation name='net.earthcomputer.externalAsmAnnotations.insn.TypeInsnOpcode'/>
+        <annotation name='net.earthcomputer.externalAsmAnnotations.opcode.TypeInsnOpcode'/>
     </item>
     <item name='org.objectweb.asm.MethodVisitor void visitTypeInsn(int, java.lang.String) 1'>
         <annotation name='net.earthcomputer.externalAsmAnnotations.pattern.ArrayOrInternalName'/>
     </item>
     <item name='org.objectweb.asm.MethodVisitor void visitVarInsn(int, int) 0'>
-        <annotation name='net.earthcomputer.externalAsmAnnotations.insn.VarInsnOpcode'/>
+        <annotation name='net.earthcomputer.externalAsmAnnotations.opcode.VarInsnOpcode'/>
     </item>
     <item name='org.objectweb.asm.MethodVisitor void visitVarInsn(int, int) 1'>
         <annotation name='org.jetbrains.annotations.Range'>

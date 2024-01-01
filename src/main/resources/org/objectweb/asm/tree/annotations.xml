@@ -1,0 +1,277 @@
+<root>
+    <item name='org.objectweb.asm.tree.AbstractInsnNode'>
+        <annotation name='org.jetbrains.annotations.ApiStatus.NonExtendable'/>
+    </item>
+    <item name='org.objectweb.asm.tree.AbstractInsnNode int getOpcode()'>
+        <annotation name='net.earthcomputer.externalAsmAnnotations.opcode.AnyOpcode'/>
+        <annotation name='org.jetbrains.annotations.Contract'>
+            <val name="pure" val="true"/>
+        </annotation>
+    </item>
+    <item name='org.objectweb.asm.tree.AbstractInsnNode int getType()'>
+        <annotation name='net.earthcomputer.externalAsmAnnotations.InsnType'/>
+        <annotation name='org.jetbrains.annotations.Contract'>
+            <val name="pure" val="true"/>
+        </annotation>
+    </item>
+    <item name='org.objectweb.asm.tree.AbstractInsnNode invisibleTypeAnnotations'>
+        <annotation name='org.jetbrains.annotations.Nullable'/>
+    </item>
+    <item name='org.objectweb.asm.tree.AbstractInsnNode org.objectweb.asm.tree.AbstractInsnNode clone(java.util.Map&lt;org.objectweb.asm.tree.LabelNode,org.objectweb.asm.tree.LabelNode&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.annotations.Contract'>
+            <val name="pure" val="true"/>
+        </annotation>
+    </item>
+    <item name='org.objectweb.asm.tree.AbstractInsnNode org.objectweb.asm.tree.AbstractInsnNode clone(java.util.Map&lt;org.objectweb.asm.tree.LabelNode,org.objectweb.asm.tree.LabelNode&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.objectweb.asm.tree.AbstractInsnNode org.objectweb.asm.tree.AbstractInsnNode getNext()'>
+        <annotation name='org.jetbrains.annotations.Nullable'/>
+        <annotation name='org.jetbrains.annotations.Contract'>
+            <val name="pure" val="true"/>
+        </annotation>
+    </item>
+    <item name='org.objectweb.asm.tree.AbstractInsnNode org.objectweb.asm.tree.AbstractInsnNode getPrevious()'>
+        <annotation name='org.jetbrains.annotations.Nullable'/>
+        <annotation name='org.jetbrains.annotations.Contract'>
+            <val name="pure" val="true"/>
+        </annotation>
+    </item>
+    <item name='org.objectweb.asm.tree.AbstractInsnNode visibleTypeAnnotations'>
+        <annotation name='org.jetbrains.annotations.Nullable'/>
+    </item>
+    <item name='org.objectweb.asm.tree.AbstractInsnNode void accept(org.objectweb.asm.MethodVisitor)'>
+        <annotation name='org.jetbrains.annotations.Contract'>
+            <val name="mutates" val="&quot;param1&quot;"/>
+        </annotation>
+    </item>
+    <item name='org.objectweb.asm.tree.AbstractInsnNode void accept(org.objectweb.asm.MethodVisitor) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.objectweb.asm.tree.AnnotationNode AnnotationNode(int, java.lang.String) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='net.earthcomputer.externalAsmAnnotations.pattern.ClassDescriptor'/>
+    </item>
+    <item name='org.objectweb.asm.tree.AnnotationNode AnnotationNode(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='net.earthcomputer.externalAsmAnnotations.pattern.ClassDescriptor'/>
+    </item>
+    <item name='org.objectweb.asm.tree.AnnotationNode desc'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='net.earthcomputer.externalAsmAnnotations.pattern.ClassDescriptor'/>
+    </item>
+    <item name='org.objectweb.asm.tree.AnnotationNode org.objectweb.asm.AnnotationVisitor visitAnnotation(java.lang.String, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='net.earthcomputer.externalAsmAnnotations.pattern.UnqualifiedName'/>
+    </item>
+    <item name='org.objectweb.asm.tree.AnnotationNode org.objectweb.asm.AnnotationVisitor visitAnnotation(java.lang.String, java.lang.String) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='net.earthcomputer.externalAsmAnnotations.pattern.ClassDescriptor'/>
+    </item>
+    <item name='org.objectweb.asm.tree.AnnotationNode org.objectweb.asm.AnnotationVisitor visitArray(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='net.earthcomputer.externalAsmAnnotations.pattern.UnqualifiedName'/>
+    </item>
+    <item name='org.objectweb.asm.tree.AnnotationNode values'>
+        <annotation name='org.jetbrains.annotations.Nullable'/>
+    </item>
+    <item name='org.objectweb.asm.tree.AnnotationNode void accept(org.objectweb.asm.AnnotationVisitor) 0'>
+        <annotation name='org.jetbrains.annotations.Nullable'/>
+    </item>
+    <item name='org.objectweb.asm.tree.AnnotationNode void visit(java.lang.String, java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='net.earthcomputer.externalAsmAnnotations.pattern.UnqualifiedName'/>
+    </item>
+    <item name='org.objectweb.asm.tree.AnnotationNode void visit(java.lang.String, java.lang.Object) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.objectweb.asm.tree.AnnotationNode void visitEnum(java.lang.String, java.lang.String, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='net.earthcomputer.externalAsmAnnotations.pattern.UnqualifiedName'/>
+    </item>
+    <item name='org.objectweb.asm.tree.AnnotationNode void visitEnum(java.lang.String, java.lang.String, java.lang.String) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='net.earthcomputer.externalAsmAnnotations.pattern.ClassDescriptor'/>
+    </item>
+    <item name='org.objectweb.asm.tree.AnnotationNode void visitEnum(java.lang.String, java.lang.String, java.lang.String) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='net.earthcomputer.externalAsmAnnotations.pattern.UnqualifiedName'/>
+    </item>
+    <item name='org.objectweb.asm.tree.ClassNode access'>
+        <annotation name='net.earthcomputer.externalAsmAnnotations.access.ClassAccess'/>
+    </item>
+    <item name='org.objectweb.asm.tree.ClassNode attrs'>
+        <annotation name='org.jetbrains.annotations.Nullable'/>
+    </item>
+    <item name='org.objectweb.asm.tree.ClassNode fields'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.objectweb.asm.tree.ClassNode innerClasses'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.objectweb.asm.tree.ClassNode interfaces'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='net.earthcomputer.externalAsmAnnotations.pattern.InternalName'/>
+    </item>
+    <item name='org.objectweb.asm.tree.ClassNode invisibleAnnotations'>
+        <annotation name='org.jetbrains.annotations.Nullable'/>
+    </item>
+    <item name='org.objectweb.asm.tree.ClassNode invisibleTypeAnnotations'>
+        <annotation name='org.jetbrains.annotations.Nullable'/>
+    </item>
+    <item name='org.objectweb.asm.tree.ClassNode methods'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.objectweb.asm.tree.ClassNode module'>
+        <annotation name='org.jetbrains.annotations.Nullable'/>
+    </item>
+    <item name='org.objectweb.asm.tree.ClassNode name'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='net.earthcomputer.externalAsmAnnotations.pattern.InternalName'/>
+    </item>
+    <item name='org.objectweb.asm.tree.ClassNode nestHostClass'>
+        <annotation name='org.jetbrains.annotations.Nullable'/>
+        <annotation name='net.earthcomputer.externalAsmAnnotations.pattern.InternalName'/>
+    </item>
+    <item name='org.objectweb.asm.tree.ClassNode nestMembers'>
+        <annotation name='org.jetbrains.annotations.Nullable'/>
+        <annotation name='net.earthcomputer.externalAsmAnnotations.pattern.InternalName'/>
+    </item>
+    <item name='org.objectweb.asm.tree.ClassNode org.objectweb.asm.AnnotationVisitor visitAnnotation(java.lang.String, boolean) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='net.earthcomputer.externalAsmAnnotations.pattern.ClassDescriptor'/>
+    </item>
+    <item name='org.objectweb.asm.tree.ClassNode org.objectweb.asm.AnnotationVisitor visitTypeAnnotation(int, org.objectweb.asm.TypePath, java.lang.String, boolean) 1'>
+        <annotation name='org.jetbrains.annotations.Nullable'/>
+    </item>
+    <item name='org.objectweb.asm.tree.ClassNode org.objectweb.asm.AnnotationVisitor visitTypeAnnotation(int, org.objectweb.asm.TypePath, java.lang.String, boolean) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='net.earthcomputer.externalAsmAnnotations.pattern.ClassDescriptor'/>
+    </item>
+    <item name='org.objectweb.asm.tree.ClassNode org.objectweb.asm.ModuleVisitor visitModule(java.lang.String, int, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='net.earthcomputer.externalAsmAnnotations.pattern.BinaryName'/>
+    </item>
+    <item name='org.objectweb.asm.tree.ClassNode org.objectweb.asm.ModuleVisitor visitModule(java.lang.String, int, java.lang.String) 1'>
+        <annotation name='net.earthcomputer.externalAsmAnnotations.access.ModuleAccess'/>
+    </item>
+    <item name='org.objectweb.asm.tree.ClassNode org.objectweb.asm.ModuleVisitor visitModule(java.lang.String, int, java.lang.String) 2'>
+        <annotation name='org.jetbrains.annotations.Nullable'/>
+    </item>
+    <item name='org.objectweb.asm.tree.ClassNode org.objectweb.asm.RecordComponentVisitor visitRecordComponent(java.lang.String, java.lang.String, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='net.earthcomputer.externalAsmAnnotations.pattern.UnqualifiedMethodName'/>
+    </item>
+    <item name='org.objectweb.asm.tree.ClassNode org.objectweb.asm.RecordComponentVisitor visitRecordComponent(java.lang.String, java.lang.String, java.lang.String) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='net.earthcomputer.externalAsmAnnotations.pattern.TypeDescriptor'/>
+    </item>
+    <item name='org.objectweb.asm.tree.ClassNode org.objectweb.asm.RecordComponentVisitor visitRecordComponent(java.lang.String, java.lang.String, java.lang.String) 2'>
+        <annotation name='org.jetbrains.annotations.Nullable'/>
+    </item>
+    <item name='org.objectweb.asm.tree.ClassNode outerClass'>
+        <annotation name='org.jetbrains.annotations.Nullable'/>
+        <annotation name='net.earthcomputer.externalAsmAnnotations.pattern.InternalName'/>
+    </item>
+    <item name='org.objectweb.asm.tree.ClassNode outerMethod'>
+        <annotation name='org.jetbrains.annotations.Nullable'/>
+        <annotation name='net.earthcomputer.externalAsmAnnotations.pattern.UnqualifiedMethodName'/>
+    </item>
+    <item name='org.objectweb.asm.tree.ClassNode outerMethodDesc'>
+        <annotation name='org.jetbrains.annotations.Nullable'/>
+        <annotation name='net.earthcomputer.externalAsmAnnotations.pattern.MethodDescriptor'/>
+    </item>
+    <item name='org.objectweb.asm.tree.ClassNode permittedSubclasses'>
+        <annotation name='org.jetbrains.annotations.Nullable'/>
+        <annotation name='net.earthcomputer.externalAsmAnnotations.pattern.InternalName'/>
+    </item>
+    <item name='org.objectweb.asm.tree.ClassNode recordComponents'>
+        <annotation name='org.jetbrains.annotations.Nullable'/>
+    </item>
+    <item name='org.objectweb.asm.tree.ClassNode signature'>
+        <annotation name='org.jetbrains.annotations.Nullable'/>
+    </item>
+    <item name='org.objectweb.asm.tree.ClassNode sourceDebug'>
+        <annotation name='org.jetbrains.annotations.Nullable'/>
+    </item>
+    <item name='org.objectweb.asm.tree.ClassNode sourceFile'>
+        <annotation name='org.jetbrains.annotations.Nullable'/>
+    </item>
+    <item name='org.objectweb.asm.tree.ClassNode superName'>
+        <annotation name='org.jetbrains.annotations.Nullable'/>
+        <annotation name='net.earthcomputer.externalAsmAnnotations.pattern.InternalName'/>
+    </item>
+    <item name='org.objectweb.asm.tree.ClassNode visibleAnnotations'>
+        <annotation name='org.jetbrains.annotations.Nullable'/>
+    </item>
+    <item name='org.objectweb.asm.tree.ClassNode visibleTypeAnnotations'>
+        <annotation name='org.jetbrains.annotations.Nullable'/>
+    </item>
+    <item name='org.objectweb.asm.tree.ClassNode void visit(int, int, java.lang.String, java.lang.String, java.lang.String, java.lang.String[]) 1'>
+        <annotation name='net.earthcomputer.externalAsmAnnotations.access.ClassAccess'/>
+    </item>
+    <item name='org.objectweb.asm.tree.ClassNode void visit(int, int, java.lang.String, java.lang.String, java.lang.String, java.lang.String[]) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='net.earthcomputer.externalAsmAnnotations.pattern.InternalName'/>
+    </item>
+    <item name='org.objectweb.asm.tree.ClassNode void visit(int, int, java.lang.String, java.lang.String, java.lang.String, java.lang.String[]) 3'>
+        <annotation name='org.jetbrains.annotations.Nullable'/>
+    </item>
+    <item name='org.objectweb.asm.tree.ClassNode void visit(int, int, java.lang.String, java.lang.String, java.lang.String, java.lang.String[]) 4'>
+        <annotation name='org.jetbrains.annotations.Nullable'/>
+        <annotation name='net.earthcomputer.externalAsmAnnotations.pattern.InternalName'/>
+    </item>
+    <item name='org.objectweb.asm.tree.ClassNode void visit(int, int, java.lang.String, java.lang.String, java.lang.String, java.lang.String[]) 5'>
+        <annotation name='org.jetbrains.annotations.Nullable'/>
+        <annotation name='net.earthcomputer.externalAsmAnnotations.pattern.InternalName'/>
+    </item>
+    <item name='org.objectweb.asm.tree.ClassNode void visitAttribute(org.objectweb.asm.Attribute) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.objectweb.asm.tree.ClassNode void visitInnerClass(java.lang.String, java.lang.String, java.lang.String, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='net.earthcomputer.externalAsmAnnotations.pattern.InternalName'/>
+    </item>
+    <item name='org.objectweb.asm.tree.ClassNode void visitInnerClass(java.lang.String, java.lang.String, java.lang.String, int) 1'>
+        <annotation name='org.jetbrains.annotations.Nullable'/>
+        <annotation name='net.earthcomputer.externalAsmAnnotations.pattern.InternalName'/>
+    </item>
+    <item name='org.objectweb.asm.tree.ClassNode void visitInnerClass(java.lang.String, java.lang.String, java.lang.String, int) 2'>
+        <annotation name='org.jetbrains.annotations.Nullable'/>
+        <annotation name='net.earthcomputer.externalAsmAnnotations.pattern.UnqualifiedName'/>
+    </item>
+    <item name='org.objectweb.asm.tree.ClassNode void visitInnerClass(java.lang.String, java.lang.String, java.lang.String, int) 3'>
+        <annotation name='net.earthcomputer.externalAsmAnnotations.access.ClassAccess'/>
+    </item>
+    <item name='org.objectweb.asm.tree.ClassNode void visitNestHost(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='net.earthcomputer.externalAsmAnnotations.pattern.InternalName'/>
+    </item>
+    <item name='org.objectweb.asm.tree.ClassNode void visitNestMember(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='net.earthcomputer.externalAsmAnnotations.pattern.InternalName'/>
+    </item>
+    <item name='org.objectweb.asm.tree.ClassNode void visitOuterClass(java.lang.String, java.lang.String, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='net.earthcomputer.externalAsmAnnotations.pattern.InternalName'/>
+    </item>
+    <item name='org.objectweb.asm.tree.ClassNode void visitOuterClass(java.lang.String, java.lang.String, java.lang.String) 1'>
+        <annotation name='org.jetbrains.annotations.Nullable'/>
+        <annotation name='net.earthcomputer.externalAsmAnnotations.pattern.UnqualifiedMethodName'/>
+    </item>
+    <item name='org.objectweb.asm.tree.ClassNode void visitOuterClass(java.lang.String, java.lang.String, java.lang.String) 2'>
+        <annotation name='org.jetbrains.annotations.Nullable'/>
+        <annotation name='net.earthcomputer.externalAsmAnnotations.pattern.MethodDescriptor'/>
+    </item>
+    <item name='org.objectweb.asm.tree.ClassNode void visitPermittedSubclass(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='net.earthcomputer.externalAsmAnnotations.pattern.InternalName'/>
+    </item>
+    <item name='org.objectweb.asm.tree.ClassNode void visitSource(java.lang.String, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.Nullable'/>
+    </item>
+    <item name='org.objectweb.asm.tree.ClassNode void visitSource(java.lang.String, java.lang.String) 1'>
+        <annotation name='org.jetbrains.annotations.Nullable'/>
+    </item>
+</root>
